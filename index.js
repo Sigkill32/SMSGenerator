@@ -114,11 +114,10 @@ previewButton.addEventListener("click", () => {
     if (placeholderValue === "") isInvalid = true;
     funcArgs.push(placeholderValue);
   });
-  if (isInvalid) return alert("One or more fields are empty");
+  if (isInvalid) return alert("One or more fields are empty! Please fill 'em");
   const message = selected.func(...funcArgs);
   previewContainer.classList.remove("hidden");
   previewContainer.value = message;
-  // sendSms.href = hrefPrefixBuilder(number) + encodeURI(message);
   sendSms.classList.remove("hidden");
 });
 
