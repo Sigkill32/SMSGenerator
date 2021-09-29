@@ -32,14 +32,14 @@ const types = [
     name: "Motor Policy Reminder",
     id: "motorPolicyReminder",
     args: ["policyNum", "regNum", "expiryDate", "company"],
-    placeHolders: ["Policy Name", "Reg Number", "Expiry Date", "Company"],
+    placeHolders: ["Policy Number", "Reg Number", "Expiry Date", "Company"],
     func: motorPolicyReminderBuilder,
   },
   {
     name: "Debt Reminder",
     id: "debtorReminder",
     args: ["policyNum", "regNum", "ballance", "company"],
-    placeHolders: ["Policy Name", "Reg Number", "Ballance", "Company"],
+    placeHolders: ["Policy Number", "Reg Number", "Ballance", "Company"],
     func: debtorReminderBuilder,
   },
 ];
