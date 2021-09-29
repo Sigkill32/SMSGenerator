@@ -71,6 +71,7 @@ const renderInputs = (args, placeHolders) => {
   const phone = document.createElement("input");
   phone.id = "phoneNum";
   phone.placeholder = "Phone Number";
+  phone.type = "number";
   fragment.append(phone);
   for (let i = 0; i < args.length; i++) {
     const input = document.createElement("input");
