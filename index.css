@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+button {
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.app {
+  padding: 20px;
+}
+
+.app-heading {
+  margin-bottom: 20px;
+}
+
+#smsType {
+  font-weight: bold;
+}
+
+.types-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.types-container button {
+  margin-right: 5px;
+  border-radius: 20px;
+  padding: 2px 5px;
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.type-text {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.input-items input {
+  padding: 10px;
+  width: 60%;
+  margin-bottom: 5px;
+}
+
+#changeType {
+  margin-left: 10px;
+  background-color: transparent;
+  border: none;
+  color: dodgerblue;
+  font-size: 10px;
+}
+
+#previewSms {
+  margin-top: 10px;
+  padding: 5px;
+  background-color: transparent;
+  border: none;
+  text-transform: uppercase;
+  color: dodgerblue;
+}
+
+.sms-preview {
+  white-space: pre-wrap;
+  margin: 10px 0;
+  display: block;
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  height: 35vh;
+  padding: 10px;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.send-sms {
+  text-decoration: none;
+  display: inline-block;
+  border: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: dodgerblue;
+  padding: 5px;
+  border-radius: 2px;
+  background-color: transparent;
+}
