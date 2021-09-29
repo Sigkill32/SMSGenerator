@@ -77,7 +77,6 @@ const renderInputs = (args, placeHolders) => {
     const input = document.createElement("input");
     input.id = args[i];
     input.placeholder = placeHolders[i];
-    if (args[i] === "expiryDate") input.type = "number";
     fragment.append(input);
   }
   inputItems.append(fragment);
